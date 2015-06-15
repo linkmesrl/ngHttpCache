@@ -6,7 +6,8 @@ Module the enable request caching for your whole Angular app.
 
 ### Install
 
-_At the moment is not available as bower component_ but you can still install this with `bower install linkmesrl/ngHttpCache --save`.
+_At the moment is not available as bower component_ but you can still install this with <br>
+`bower install linkmesrl/ngHttpCache --save`.
 
 Otherwise you can simply download this module and include `src/ngHttpCache.js` in your page.
 
