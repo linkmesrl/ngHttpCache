@@ -28,15 +28,17 @@ You can configure the route to be cached from you app config providing and array
 ``` javascript
 angular.module('myApp')
 .config(function(ngHttpCacheConfigProvider){
-    ngHttpCacheConfigProvider.urls = ['/api', '/templates'];
+    ngHttpCacheConfigProvider.urls = ['/api', '/otherApi'];
 });
 ```
 
 Routes are matched searching for all the provided string in the current url, so:
 
 - `/api/members/12` will match `/api`
-- `/templates/index.html` will match `/templates`
+- `/otherApi/index.html` will match `/otherApi`
 - `/server/user` will not match
+
+**Note**: _If you need to cache templates have a look at  Angular's builtin [$templateCache](https://docs.angularjs.org/api/ng/service/$templateCache)_
 
 ### Clearing the cache
 
