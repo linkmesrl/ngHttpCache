@@ -25,9 +25,9 @@ angular.module('myApp')
 
 Routes are matched searching for all the provided string in the current url, so:
 
-`/api/members/12` will match `/api`
-`/templates/index.html` will match `/templates`
-`/server/user` will not match
+- `/api/members/12` will match `/api`
+- `/templates/index.html` will match `/templates`
+- `/server/user` will not match
 
 ### Clearing the cache
 
