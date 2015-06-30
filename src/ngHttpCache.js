@@ -42,8 +42,3 @@ angular.module('ngHttpCache', [])
         }
     };
 });
-
-angular.module('ngHttpCache')
-.config(function(ngHttpCacheConfigProvider){
-    ngHttpCacheConfigProvider.urls = ['/api', '/templates'];
-});
